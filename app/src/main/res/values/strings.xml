@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">COMPILER_CONSTRUCTION1</string>
+    <string name="lexical_analysis">Lexical Analysis</string>
+    <string name="semantic_analysis">Semantic Analysis</string>
+    <string name="syntax_analysis">Syntax Analysis</string>
+    <string name="analyze">Analyze</string>
+    <string name="enter_code_here1">Enter code here</string>
+    <string name="analyze2">Analyze</string>
+    <string name="enter_code_here2">Enter code here...</string>
+    <string name="analyze4">Analyze</string>
+    <string name="enter_code_here4">Enter code here...</string>
+    <string name="analyze7">Analyze</string>
+    <string name="enter_code7">Enter code...</string>
+</resources>

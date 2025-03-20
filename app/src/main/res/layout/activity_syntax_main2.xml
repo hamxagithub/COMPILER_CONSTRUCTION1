@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/code_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_code7"
+        android:backgroundTint="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/analyze_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/analyze7" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.example.compiler_construction1.DELIVERABLE1.GraphicView
+        android:id="@+id/ast_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/white" />
+
+</LinearLayout>
