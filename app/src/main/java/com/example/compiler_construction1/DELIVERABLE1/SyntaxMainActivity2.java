@@ -28,7 +28,7 @@ public class SyntaxMainActivity2 extends AppCompatActivity {
 
         codeInput = findViewById(R.id.code_input);
         analyzeButton = findViewById(R.id.analyze_button);
-        recyclerView = findViewById(R.id.recycler_view);
+        recyclerView = findViewById(R.id.recycler_view1);
         astView = findViewById(R.id.ast_view);
 
         syntaxAdapter = new SyntaxAdapter();

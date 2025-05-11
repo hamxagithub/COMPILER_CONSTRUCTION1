@@ -8,7 +8,6 @@ import android.widget.Toast;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.compiler_construction1.R;
 import java.util.*;
@@ -38,7 +37,7 @@ public class LEXICALMainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_lexicalmain2);
 
         codeInput = findViewById(R.id.code_input);
-        RecyclerView recyclerView = findViewById(R.id.recycler_view);
+        RecyclerView recyclerView = findViewById(R.id.recycler_view1);
         Button analyzeButton = findViewById(R.id.analyze_button);
 
         tokenAdapter = new TokenAdapter(new ArrayList<>());

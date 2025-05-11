@@ -1,3 +1,5 @@
+/*SemanticError*/
+
 package com.example.compiler_construction1.DELIVERABLE1;
 
 public class SemanticError {

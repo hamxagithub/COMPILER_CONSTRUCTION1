@@ -2,26 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:padding="8dp">
 
     <TextView
-        android:id="@+id/varName"
+        android:id="@+id/symbolName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Variable: "
-        android:textStyle="bold" />
+        android:text="Name: "
+        android:textStyle="bold"/>
 
     <TextView
-        android:id="@+id/varType"
+        android:id="@+id/symbolType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Type: " />
+        android:text="Type: "/>
 
     <TextView
-        android:id="@+id/errorMessage"
+        android:id="@+id/symbolSize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Error: "
-        android:textColor="#FF0000"/>
+        android:text="Size: "/>
+
+    <TextView
+        android:id="@+id/symbolDimension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dimension: "/>
+
 </LinearLayout>

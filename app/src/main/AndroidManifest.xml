@@ -31,17 +31,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DELIVERABLE1.SYANTICMainActivity2"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".DELIVERABLE1.SEMANTICMainActivity2"
-            android:exported="true">
+            android:name=".DELIVERABLE1.SemanticMainActivity2"
+            android:exported="true"
+            tools:ignore="DuplicateActivity,MissingClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

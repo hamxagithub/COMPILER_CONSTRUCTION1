@@ -7,11 +7,13 @@ public class ASTNode {
     private String value;
     private ASTNode left;
     private ASTNode right;
+    private List<ASTNode> children; // New list for multiple children
 
     public ASTNode(String value) {
         this.value = value;
         this.left = null;
         this.right = null;
+        this.children = new ArrayList<>();
     }
 
     public String getValue() {
@@ -32,6 +34,14 @@ public class ASTNode {
 
     public void setRight(ASTNode right) {
         this.right = right;
+    }
+
+    public List<ASTNode> getChildren() {
+        return children;
+    }
+
+    public void addChild(ASTNode child) {
+        this.children.add(child);
     }
 
     /**
@@ -60,6 +70,10 @@ public class ASTNode {
 
         buildRepresentation(node.getLeft(), representation, level + 1);
         buildRepresentation(node.getRight(), representation, level + 1);
+
+        for (ASTNode child : node.children) {
+            buildRepresentation(child, representation, level + 1);
+        }
     }
 
     /**
